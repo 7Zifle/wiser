@@ -1,0 +1,13 @@
+NetworkConfig(
+    interface: "wlp0s20f3",
+    sleep: 5,
+    networks: [
+        Network(
+            network_type: 0,
+	        connection: "Connection Name",
+	        commands: [
+		        "gnome-terminal",
+	        ],		  
+	    ),
+    ],
+)
